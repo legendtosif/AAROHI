@@ -3,7 +3,7 @@ from pyrogram.types import Message
 from BADMUSIC import app
 
 # Owner's Telegram User ID
-OWNER_ID = 7009601543  # Replace with your Telegram user ID
+OWNER_ID = 7436702719  # Replace with your Telegram user ID
 
 # Path to warning image (ensure the file exists)
 WARNING_IMAGE_PATH = "https://files.catbox.moe/bnubd6.jpg"  # Replace with the path to your image file
