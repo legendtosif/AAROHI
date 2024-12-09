@@ -19,10 +19,10 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "FlopMusic_Bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "AAROHI_MUSIC_ROBOT)
 
 # Bot id
-BOT_ID = int(getenv("BOT_ID", "7634367413"))
+BOT_ID = int(getenv("BOT_ID", "7520092354"))
 
 # Token allow for access youtube songs. [ True = use token data, False = use cookies ]
 TOKEN_ALLOW = os.getenv("TOKEN_ALLOW", "False")
