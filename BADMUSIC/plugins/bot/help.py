@@ -379,7 +379,7 @@ async def music_callback(client: Client, callback_query: CallbackQuery):
                 InlineKeyboardButton(text="✰ 𝗔ᴅᴍɪɴ ✰", callback_data="music_callback hb1"),
                 InlineKeyboardButton(text="✰ 𝗔ᴜᴛʜ ✰", callback_data="music_callback hb2"),
                 InlineKeyboardButton(
-                    text="✰ 𝗕ʀᴏᴀᴅᴄᴀ𝘀ᴛ ✰", callback_data="music_callback hb3"
+                    text="✰ 𝗚-𝗖ᴀ𝘀ᴛ ✰", callback_data="music_callback hb3"
                 ),
             ],
             [
@@ -395,7 +395,7 @@ async def music_callback(client: Client, callback_query: CallbackQuery):
                 InlineKeyboardButton(text="✰ 𝗚-𝗕ᴀɴ ✰", callback_data="music_callback hb7"),
                 InlineKeyboardButton(text="✰ 𝗟ᴏᴏᴘ ✰", callback_data="music_callback hb8"),
                 InlineKeyboardButton(
-                    text="✰ 𝗠ᴀɪɴᴛᴇɴᴀɴᴄᴇ ✰", callback_data="music_callback hb9"
+                    text="✰ 𝗠-ᴛᴇɴᴀɴᴄᴇ ✰", callback_data="music_callback hb9"
                 ),
             ],
             [
@@ -479,7 +479,7 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
             InlineKeyboardButton(text="✰ 𝗢ᴡ፝֠֩𝛈𝛆ʀ ✰", user_id=config.OWNER_ID[0]),
             InlineKeyboardButton(
                 text="✰ 𝗟ҽɠҽɳԃ-𝗕σყ ✰",
-                url="https://t.me/Legend_boy",
+                url="https://t.me/Legend_mickey",
             ),
         ],
         [
