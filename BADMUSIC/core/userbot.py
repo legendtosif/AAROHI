@@ -64,9 +64,9 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("PBX_CHAT")
-                await self.one.join_chat("HEROKUBIN_01")
-                await self.one.join_chat("ll_BAD_MUNDA_WORLD_ll")
+                await self.one.join_chat("THE_INCRICIBLE")
+                await self.one.join_chat("ZOYU_SUPPORT")
+                await self.one.join_chat("ABOUT_GODFATHER")
                 await self.one.join_chat("ll_BAD_ABOUT_ll")
             except:
                 pass
