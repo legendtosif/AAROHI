@@ -231,7 +231,7 @@ async def start_comm(client, message: Message, _):
             out = music_start_panel(_)
             bad = await message.reply_text(f"**ʜᴇʏ 💌**")
             await bad.delete()
-            bad = await message.reply_text("**ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ 💞**")
+            bad = await message.reply_text("**ᴀᴀʀᴏʜɪ sᴛᴀʀᴛ💞**")
             await asyncio.sleep(0.1)
             await bad.delete()
             umm = await bad.reply_sticker(sticker=random.choice(STICKER))
