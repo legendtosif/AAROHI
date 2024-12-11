@@ -10,19 +10,19 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "21585095"))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("405e9457d89e2def3c77640b1f9ec913")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("8129169896:AAHyDmSuJV9TKGNbpm922Rs7VkQT1xl-OM0")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "AAROHI_MUSIC_ROBOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Sung_Jin_Music_BotT")
 
 # Bot id
-BOT_ID = int(getenv("BOT_ID", "7520092354"))
+BOT_ID = int(getenv("BOT_ID", "8129169896"))
 
 # Token allow for access youtube songs. [ True = use token data, False = use cookies ]
 TOKEN_ALLOW = os.getenv("TOKEN_ALLOW", "False")
@@ -73,12 +73,12 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002392274240"))
 
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "7520092354").split())
+    map(int, getenv("OWNER_ID", "6971954079").split())
 )  # Input type must be interger
 
 
@@ -90,10 +90,10 @@ PRIVACY_LINK = getenv(
 
 
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HRKU-ceb6cc93-8718-4f7b-af4f-0258cf85d01e")
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("sungmusic001")
 
 
 # For customized or modified Repository
@@ -112,14 +112,14 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/the_incricible"
+    "SUPPORT_CHANNEL", "https://t.me/MBT_SUNG_JIN_WOO"
 )  # Example:- https://t.me/The_Incricible
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/The_Incricible"
+    "SUPPORT_GROUP", "https://t.me/GOD_APPEAL"
 )  # Example:- https://t.me/The_Incricible
 
 SUPPORT_CHAT = getenv(
-    "SUPPORT_GROUP", "https://t.me/zoyu_support"
+    "SUPPORT_GROUP", "https://t.me/mbtmusiclogs"
 )  # Example:- https://t.me/The_Incricible
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
