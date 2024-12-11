@@ -93,7 +93,7 @@ PRIVACY_LINK = getenv(
 HEROKU_API_KEY = getenv("HRKU-ceb6cc93-8718-4f7b-af4f-0258cf85d01e")
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
-HEROKU_APP_NAME = getenv("SUNGMUSIC001")
+HEROKU_APP_NAME = getenv("sungmusic001")
 
 
 # For customized or modified Repository
