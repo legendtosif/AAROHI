@@ -42,7 +42,7 @@ from .help import paginate_modules
 loop = asyncio.get_running_loop()
 
 STICKER = [
-    "CAACAgUAAx0CefhfOwAC1ntnV0lgy9uHz4KmtiLBoSNnhywWFgACwhEAAt6jwVYzl_Hc1zaaGx4E",
+    "CAACAgUAAx0CefhfOwAC43FnWdcm8gSWZf15I5DzGk3oD-V7PAAC0BMAAlSI0FZQRhybu2AcMx4E",
 ]
 
 @app.on_message(group=-1)
@@ -229,9 +229,9 @@ async def start_comm(client, message: Message, _):
 
         try:
             out = music_start_panel(_)
-            bad = await message.reply_text(f"**ʜᴇʏ 💌**")
+            bad = await message.reply_text(f"**ʜᴇʏ ʙᴀʙʏ💌**")
             await bad.delete()
-            bad = await message.reply_text("**ᴀᴀʀᴏʜɪ sᴛᴀʀᴛ💞**")
+            bad = await message.reply_text("**sᴘᴏᴛɪғʏ ᴍᴜsɪᴄ sᴛᴀʀᴛ💞**")
             await asyncio.sleep(0.1)
             await bad.delete()
             umm = await bad.reply_sticker(sticker=random.choice(STICKER))
