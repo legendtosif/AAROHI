@@ -19,7 +19,7 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "AAROHI_MUSIC_ROBOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "SPOTIFY_X_MUSICROBOT")
 
 # Bot id
 BOT_ID = int(getenv("BOT_ID", "7520092354"))
